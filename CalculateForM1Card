@@ -33,4 +33,4 @@ while(True):
     OctNum_in = input(u"请输入你的数据(例如100.00输入10000)")
     while(len(str(OctNum_in))<3 & OctNum_in <= 65500):
         OctNum_in= input(u"请输入你的数据(例如100.00输入10000)")
-    print u"你需要的数字为:"+caclulate_hex(OctNum_in)
+    print u"你需要的数字为:"+caclulate_hex(OctNum_in) 
